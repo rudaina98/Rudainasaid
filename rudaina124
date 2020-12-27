@@ -2,7 +2,9 @@ start
 for user add prod
 read price_prod, category_prod
 IF (price_prod >=35 OR) then
-user will get free express shopping and delivery 
+user will get free express shopping and delivery
+ELSE IF (price_prod>=50 OR)
+user will get free delivery and descount 
 ELSE
 the user pay for customs and delivery
 END IF 
